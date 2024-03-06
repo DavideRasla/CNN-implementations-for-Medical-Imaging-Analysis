@@ -1,27 +1,27 @@
-# CNN-implementations-for-Medical-Imaging-Analysis
-A project submitted for the course of Computational Intelligence MSc Embedded Computing System
 
-The goal of the project is to perfom a survey of deep learning techniques to detect breast cancer using a dataset made of images.
+# Title: Deep Learning for Breast Cancer Detection: A Comprehensive Survey and Implementation
 
-The report in this repository aims to cover all the procedures and methods implemented to analyze and complete
-the five tasks of the project. Besides the usual techniques, additional ones have been used and all the details are provided in order to
-cover and ensure an high quality work level.
+# Description:
+This  project is submitted as part of the Computational Intelligence MSc Embedded Computing System course. This project is dedicated to exploring and applying deep learning techniques to the task of breast cancer detection, utilizing a  dataset of medical images.
 
-The first chapter is related to the task one. An introduction to the collection of all the papers and
-researches that I found, underlying the most interesting and useful for my purposes.
+# Objectives
+The primary objectives of this project are to conduct an exhaustive survey of deep learning techniques and to implement a robust methodology for breast cancer detection. The repository comprehensively documents the procedures and methods employed to fulfill the five designated tasks, including both traditional and innovative approaches to ensure a work of high quality and effectiveness.
 
-The second and third chapter are related to task two and three. They are divided in equal parts
-for binary and categorical classification.
-The second chapter aims to classify from scratch, whereas
-the third use pre-trained network as VGG16, and INCEPTION V3. The classification described
-does not takes into account the baseline patch, considered that this feature has been described in
-chapter four.
+# Chapter Breakdown
+1. Introduction (Task One):
+In the inaugural chapter, I present an insightful introduction that consolidates a collection of relevant papers and research findings. I emphasize the most intriguing and valuable resources discovered, setting the stage for subsequent chapters.
 
-The fourth chapter aims to analyze if it is possible to use the baseline in order to classifiy the
-abnormality correctly.
+2. Binary Classification (Task Two):
+This segment delves into the intricacies of binary classification, providing an in-depth exploration of the classification process starting from scratch. The chapter sheds light on the methodologies and insights I gained during this fundamental phase.
 
-The fifth chapter is related in how to ensemble the best models obtained in order to create a
-better classifier that can overcome the single models.
+3. Categorical Classification (Task Three):
+Task Three is divided into two equal parts focusing on categorical classification. I elucidate my approach to classification, examining both from-scratch methodologies and leveraging pre-trained networks such as VGG16 and INCEPTION V3. Importantly, the baseline patch is not considered in this classification, as its analysis is reserved for the subsequent chapter.
 
-The latter is an overall on the entire work, discussing results, techniques and possible future
-works
+4. Baseline Analysis (Task Four):
+The fourth chapter scrutinizes the viability of incorporating baseline information to enhance the accuracy of abnormality classification. This exploration aims to contribute insights into the role of baseline data in refining the detection process.
+
+5. Model Ensemble (Task Five):
+Dedicated to the amalgamation of the best models obtained, this chapter explores the technique of ensemble learning. By combining top-performing models, my goal is to create a more resilient and efficient classifier that surpasses the capabilities of individual models.
+
+Conclusion
+The concluding chapter serves as a comprehensive overview of the entire project, offering insightful discussions on results, methodologies, and potential directions for future work. This section serves as a reflective synthesis of the project's achievements and paves the way for further exploration in the dynamic field of medical imaging analysis.
